@@ -67,12 +67,10 @@ html {
 nav {
 	display: flex;
 	justify-content: flex-end;
+	a {
+		padding: 20px;
+	}
 }
-
-nav a {
-	padding: 20px;
-}
-
 
 .container {
 	max-width: 1305px;
@@ -84,7 +82,9 @@ nav a {
 
 .header {
 	background-color: @color-2;
-	height: 14rem;
+	height: 20%;
+	display: flex;
+	justify-content: center;
 	h1 {
 		font-size: 4rem;
 		display: flex;
@@ -93,11 +93,15 @@ nav a {
 }
 
 .main-content {
-	background-color: @color-2;
-	height: 400px;
-	display: flex;
+	.header;
 	h2 {
 		font-size: 4rem;
+	}
+	p {
+		margin-top: 15px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+		font-size: 2rem;
 	}
 }
 
@@ -106,22 +110,17 @@ nav a {
 // 	width
 // }
 
-p {
-	margin-top: 15px;
-	margin-bottom: 20px;
-	line-height: 1.5;
-	font-size: 2rem;
-}
 
-.main-content .lists h3 {
-	font-size: 3rem; 
-}
 
 .lists {
 	margin-top: 65px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	h3 {
+		font-size: 3rem; 
+	}
+
 	ul {
 		font-size: 2rem;
 	}
@@ -131,7 +130,7 @@ p {
 }
 
 .closing-content {
-	height: 40%;
+	height: 35%;
 	background-color: @color-2;
 	display: flex;
 	justify-content: center;
@@ -141,8 +140,10 @@ p {
 		margin-top: 13rem;
 		}
 		p {
+			margin-top: 15px;
+			margin-bottom: 20px;
+			line-height: 1.5;
 			font-size: 2rem;
-			line-height: 1.2;
 		}
 }
 

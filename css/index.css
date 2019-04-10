@@ -153,7 +153,9 @@ nav a {
 }
 .header {
   background-color: #A9A9A9;
-  height: 14rem;
+  height: 20%;
+  display: flex;
+  justify-content: center;
 }
 .header h1 {
   font-size: 4rem;
@@ -162,26 +164,32 @@ nav a {
 }
 .main-content {
   background-color: #A9A9A9;
-  height: 400px;
+  height: 20%;
   display: flex;
+  justify-content: center;
+}
+.main-content h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
 }
 .main-content h2 {
   font-size: 4rem;
 }
-p {
+.main-content p {
   margin-top: 15px;
   margin-bottom: 20px;
   line-height: 1.5;
   font-size: 2rem;
-}
-.main-content .lists h3 {
-  font-size: 3rem;
 }
 .lists {
   margin-top: 65px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.lists h3 {
+  font-size: 3rem;
 }
 .lists ul {
   font-size: 2rem;
@@ -190,7 +198,7 @@ p {
   font-size: 2rem;
 }
 .closing-content {
-  height: 40%;
+  height: 35%;
   background-color: #A9A9A9;
   display: flex;
   justify-content: center;
@@ -201,6 +209,8 @@ p {
   margin-top: 13rem;
 }
 .closing-content p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 1.5;
   font-size: 2rem;
-  line-height: 1.2;
 }
