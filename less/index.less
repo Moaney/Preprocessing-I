@@ -53,7 +53,97 @@ table {
     box-sizing: border-box;
 }
 
+@color: #000000;
+@color-2: #A9A9A9;
+
 html, body {
     height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	a {
+		padding: 20px;
+	}
+}
+
+.container {
+	max-width: 1305px;
+	margin: auto;
+	height: 1493px;
+	padding: 35px;
+	background-color: @color;
+}
+
+.header {
+	background-color: @color-2;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	h1 {
+		font-size: 4rem;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.main-content {
+	.header;
+	h2 {
+		font-size: 4rem;
+	}
+	p {
+		margin-top: 15px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+		font-size: 2rem;
+	}
+}
+
+
+// .img-1 {
+// 	width
+// }
+
+
+
+.lists {
+	margin-top: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	h3 {
+		font-size: 3rem; 
+	}
+
+	ul {
+		font-size: 2rem;
+	}
+	ol {
+		font-size: 2rem;
+	}
+}
+
+.closing-content {
+	height: 35%;
+	background-color: @color-2;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	h2 {
+		font-size: 4rem;
+		margin-top: 13rem;
+		}
+		p {
+			margin-top: 15px;
+			margin-bottom: 20px;
+			line-height: 1.5;
+			font-size: 2rem;
+		}
 }
 
