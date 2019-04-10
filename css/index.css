@@ -134,19 +134,73 @@ html,
 body {
   height: 100%;
 }
+html {
+  font-size: 62.5%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  padding: 20px;
+}
 .container {
-  max-width: 1000px;
+  max-width: 1305px;
   margin: auto;
   height: 1493px;
   padding: 35px;
-  background-color: aqua;
+  background-color: #000000;
 }
 .header {
-  background-color: dodgerblue;
+  background-color: #A9A9A9;
+  height: 100px;
+}
+.header h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
 }
 .main-content {
-  background-color: salmon;
+  background-color: #A9A9A9;
+  height: 400px;
+  display: flex;
+}
+.main-content h2 {
+  font-size: 4rem;
+}
+.main-content p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+.main-content .lists h3 {
+  font-size: 3rem;
+}
+.lists {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.lists ul {
+  font-size: 2rem;
+}
+.lists ol {
+  font-size: 2rem;
 }
 .closing-content {
-  background-color: palevioletred;
+  height: 300px;
+  background-color: #A9A9A9;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.closing-content h2 {
+  font-size: 4rem;
+  margin-top: 16rem;
+}
+.closing-content p {
+  font-size: 2rem;
+  line-height: 1.2;
 }
