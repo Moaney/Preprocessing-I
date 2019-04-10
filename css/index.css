@@ -153,7 +153,7 @@ nav a {
 }
 .header {
   background-color: #A9A9A9;
-  height: 100px;
+  height: 14rem;
 }
 .header h1 {
   font-size: 4rem;
@@ -168,7 +168,7 @@ nav a {
 .main-content h2 {
   font-size: 4rem;
 }
-.main-content p {
+p {
   margin-top: 15px;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -190,7 +190,7 @@ nav a {
   font-size: 2rem;
 }
 .closing-content {
-  height: 300px;
+  height: 40%;
   background-color: #A9A9A9;
   display: flex;
   justify-content: center;
@@ -198,7 +198,7 @@ nav a {
 }
 .closing-content h2 {
   font-size: 4rem;
-  margin-top: 16rem;
+  margin-top: 13rem;
 }
 .closing-content p {
   font-size: 2rem;
